@@ -9,8 +9,8 @@ ADMIN_IDS: list[int] = [
     int(x.strip()) for x in os.getenv("ADMIN_IDS", "7892805795").split(",") if x.strip()
 ]
 
-YT_API_KEY: str = os.getenv("YT_API_KEY", "TD_Io4XmlQvyLYAlLNBnhUz6KW1URlTsdJL")
-YT_API_BASE: str = os.getenv("YT_API_BASE", "https://yt.teamdev.sbs/api/v1/")
+YT_API_KEY: str = os.getenv("YT_API_KEY", "AIzaSyCaiuBRJ02W8kOiApgtciIrEL8Djeql4hs")
+YT_API_BASE: str = os.getenv("YT_API_BASE", "YT_API_BASE=https://www.googleapis.com/youtube/v3/")
 
 TEAM_NAME: str = os.getenv("TEAM_NAME", "anuj")
 DEVELOPER_NAME: str = os.getenv("DEVELOPER_NAME", "@anujedits76")
