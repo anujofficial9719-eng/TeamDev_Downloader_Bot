@@ -36,11 +36,11 @@
 #        - key: BOT_USERNAME
 #          value: YourBotUsername
 #        - key: DAILY_DOWNLOAD_LIMIT
-#          value: "3"
+#          value: "300"
 #        - key: FORCE_JOIN_CHANNEL
 #          value: "@YourChannel"
 #        - key: FORCE_JOIN_ENABLED
-#          value: "true"
+#          value: "false"
 #        - key: ADMIN_IDS
 #          sync: false
 # ============================================================
