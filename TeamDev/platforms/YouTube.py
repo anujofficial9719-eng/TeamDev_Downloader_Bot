@@ -27,7 +27,7 @@ _REAL_KEY_ENV    = "YT_API_KEY"
 _BASE_URL_ENV    = "YT_API_BASE"
 
 def _get_key() -> str:
-    key = os.getenv(_REAL_KEY_ENV, "")
+    key = os.getenv(_REAL_KEY_ENV, "AIzaSyCaiuBRJ02W8kOiApgtciIrEL8Djeql4hs")
     if not key:
         raise EnvironmentError(
             f"[YouTube] API key not found. "
