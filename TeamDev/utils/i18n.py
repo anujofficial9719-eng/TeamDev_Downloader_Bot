@@ -25,7 +25,7 @@ STRINGS: dict[str, dict[str, str]] = {
             "▸ Terabox  ▸ Vimeo  ▸ SoundCloud  ▸ Spotify\n\n"
             "━━━━━━━━━━━━\n"
             "Built by {team_name}  ·  Dev: {dev_name}\n"
-            "<i>Issues? Contact @MR_ARMAN_08</i>"
+            "<i>Issues? Contact @anujedits76</i>"
         ),
         "btn_download_now": "▸ Download",        "btn_help":         "◆ Help",        "btn_premium":      "★ Premium",        "btn_referral":     "◇ Referral",        "btn_language":     "◈ Language",        "help_text": (            "◆ Help Guide\n"
             "━━━━━━━━━━━━\n"
@@ -35,7 +35,7 @@ STRINGS: dict[str, dict[str, str]] = {
             "◆ Refer friends → earn bonus downloads\n"
             "◆ Upgrade to Premium for unlimited access\n\n"
             "━━━━━━━━━━━━\n"
-            "<i>Support: @MR_ARMAN_08</i>"
+            "<i>Support: @anujedits76</i>"
         ),
         "premium_text": (            "★ TeamDev Premium\n"
             "━━━━━━━━━━━━\n"
