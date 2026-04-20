@@ -28,7 +28,7 @@ from TeamDev.utils.helpers import build_referral_link
 
 
 def _check_force_join(bot: telebot.TeleBot, user_id: int) -> bool:
-    fj_enabled = get_setting("force_join_enabled", str(FORCE_JOIN_ENABLED)).lower() == "true"
+    fj_enabled = get_setting("force_join_enabled", str(FORCE_JOIN_ENABLED)).lower() == "false"
     fj_channel = get_setting("force_join_channel", FORCE_JOIN_CHANNEL)
     if not fj_enabled or not fj_channel:
         return True
@@ -105,7 +105,7 @@ def register_start_handlers(bot: telebot.TeleBot):
             dev_name=DEVELOPER_NAME,
         )
 
-        start_photo = get_setting("start_photo", os.getenv("START_PHOTO", ""))
+        start_photo = get_setting("start_photo", os.getenv("START_PHOTO", "https://o.uguu.se/SOCdjMHV.jpg"))
         kb = _start_kb(lang)
 
         if start_photo:
