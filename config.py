@@ -10,7 +10,7 @@ ADMIN_IDS: list[int] = [
 ]
 
 YT_API_KEY: str = os.getenv("YT_API_KEY", "AIzaSyCaiuBRJ02W8kOiApgtciIrEL8Djeql4hs")
-YT_API_BASE: str = os.getenv("YT_API_BASE", "YT_API_BASE=https://www.googleapis.com/youtube/v3/")
+YT_API_BASE: str = os.getenv("YT_API_BASE", "https://www.googleapis.com/youtube/v3/")
 
 TEAM_NAME: str = os.getenv("TEAM_NAME", "anuj")
 DEVELOPER_NAME: str = os.getenv("DEVELOPER_NAME", "@anujedits76")
